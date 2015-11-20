@@ -1,0 +1,12 @@
+#include <QCoreApplication>
+#include "ringer.h"
+
+int main(int argc, char *argv[])
+{
+    QCoreApplication a(argc, argv);
+
+    Controller controller;
+
+    return a.exec();
+}
+
